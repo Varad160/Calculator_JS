@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+        font-family: "Baskervville SC", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.button{
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border : 2px solid black;
+    border-radius:  9px;
+    font-size: 21px;
+    
+    
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+.row{
+    margin: 8px 0;
+}
+
+.row input{
+    width: 291px;
+    margin: 0;
+    padding: 11px 6px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.button-0 {
+    flex: 2; /* Make the 0 button twice as wide as the other buttons */
+}
+
+.button:hover {
+    background-color: #3EB489;
+}
